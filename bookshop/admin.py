@@ -20,7 +20,7 @@ root.geometry("800x530")
 root.resizable(False,False)
 # Load the background image
 bg_image = Image.open("ADMIN.png")
-bg_image = bg_image.resize((800, 600), Image.ANTIALIAS)
+bg_image = bg_image.resize((800, 600), Image.BICUBIC)
 bg_photo = ImageTk.PhotoImage(bg_image)
 
 # Create a canvas and set the background image

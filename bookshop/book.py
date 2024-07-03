@@ -14,7 +14,7 @@ root.geometry("908x516")  # Ensure correct case for 'x'
 
 def sell_book():
         root.destroy()
-        os.system("python -u buy.py")
+        os.system("python -u buy1.py")
 
 # Set the background image
 bg_image = PhotoImage(file="book1.png")
